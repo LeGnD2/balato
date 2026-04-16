@@ -12,3 +12,11 @@ C:\Users\User\source\repos\balato\balato\obj\Debug\net10.0\refint\balato.dll
 C:\Users\User\source\repos\balato\balato\obj\Debug\net10.0\balato.pdb
 C:\Users\User\source\repos\balato\balato\obj\Debug\net10.0\balato.genruntimeconfig.cache
 C:\Users\User\source\repos\balato\balato\obj\Debug\net10.0\ref\balato.dll
+C:\xampp\htdocs\balato\balato\obj\Debug\net10.0\balato.GeneratedMSBuildEditorConfig.editorconfig
+C:\xampp\htdocs\balato\balato\obj\Debug\net10.0\balato.AssemblyInfoInputs.cache
+C:\xampp\htdocs\balato\balato\obj\Debug\net10.0\balato.AssemblyInfo.cs
+C:\xampp\htdocs\balato\balato\obj\Debug\net10.0\balato.csproj.CoreCompileInputs.cache
+C:\xampp\htdocs\balato\balato\obj\Debug\net10.0\balato.sourcelink.json
+C:\xampp\htdocs\balato\balato\obj\Debug\net10.0\balato.dll
+C:\xampp\htdocs\balato\balato\obj\Debug\net10.0\refint\balato.dll
+C:\xampp\htdocs\balato\balato\obj\Debug\net10.0\balato.pdb
