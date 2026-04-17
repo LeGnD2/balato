@@ -2,24 +2,24 @@
 using System.Collections.Generic;
 using System.Text;
 
-
-    namespace balato
-{ 
-        class Program
+namespace balato
+{
+    class Program
+    {
+        static void Main(string[] args)
         {
-            static void Main(string[] args)
-            {
-                Deck testDeck = new Deck();
-                PlayerHand hand = new PlayerHand(5);
-                hand.AddCard(testDeck.TakeCard());
-                hand.AddCard(testDeck.TakeCard());
+            Deck deck = new Deck();
+            deck.shuffel();
 
-                Model model = new Model(testDeck, hand);
+            PlayerHand hand = new PlayerHand(5);
+            for (int i = 0; i < 5; i++)
+                hand.AddCard(deck.TakeCard());
 
-                ViewModel viewModel = new ViewModel(model);
-                viewModel.UpdateFromModel();
+            Model model = new Model(deck, hand);
 
-                viewModel.Run();
-            }
+            ViewModel viewModel = new ViewModel(model);
+            viewModel.UpdateFromModel();
+            viewModel.Run();
         }
     }
+}

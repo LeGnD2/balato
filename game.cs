@@ -1,8 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Text;
-
-using System;
 
 namespace balato
 {
@@ -36,7 +35,7 @@ namespace balato
 
             for (int i = 0; i < 5; i++)
             {
-                hand.AddCard(deck.Draw());
+                hand.AddCard(deck.TakeCard());
             }
 
             Console.WriteLine("Your hand:");
@@ -55,11 +54,13 @@ namespace balato
         {
             var comb = new Combinatie();
 
-            if (comb.HasThreeOfAKind(hand.Cards))
+            var cards = hand.CardsInHand.ToList();
+
+            if (comb.HasThreeOfAKind(cards))
                 return "Three of a Kind";
-            else if (comb.HasTwoPair(hand.Cards))
+            else if (comb.HasTwoPair(cards))
                 return "Two Pair";
-            else if (comb.HasPair(hand.Cards))
+            else if (comb.HasPair(cards))
                 return "Pair";
             else
                 return "High Card";

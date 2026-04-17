@@ -1,5 +1,4 @@
-﻿using balato;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -14,6 +13,11 @@ namespace balato
 
         public IEnumerable<Card> CardsInHand => this.Hand;
         public IEnumerable<int> SelectedCards => this.SelectedIndexes;
+
+        public PlayerHand()
+            : this(5)
+        {
+        }
 
         public PlayerHand(int maxCards)
         {
@@ -78,7 +82,10 @@ namespace balato
 
         internal void ShowHand()
         {
-            throw new NotImplementedException();
+            foreach (var card in this.Hand)
+            {
+                Console.WriteLine(card.MakeAsString());
+            }
         }
     }
 }

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("balato")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3f8bc6ab18da9839cafc365b8f96b61154c7ccca")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a00df59eb340950e0ffed377d8b91daae3df6391")]
 [assembly: System.Reflection.AssemblyProductAttribute("balato")]
 [assembly: System.Reflection.AssemblyTitleAttribute("balato")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

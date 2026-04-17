@@ -20,3 +20,10 @@ C:\xampp\htdocs\balato\balato\obj\Debug\net10.0\balato.sourcelink.json
 C:\xampp\htdocs\balato\balato\obj\Debug\net10.0\balato.dll
 C:\xampp\htdocs\balato\balato\obj\Debug\net10.0\refint\balato.dll
 C:\xampp\htdocs\balato\balato\obj\Debug\net10.0\balato.pdb
+C:\xampp\htdocs\balato\balato\bin\Debug\net10.0\balato.exe
+C:\xampp\htdocs\balato\balato\bin\Debug\net10.0\balato.deps.json
+C:\xampp\htdocs\balato\balato\bin\Debug\net10.0\balato.runtimeconfig.json
+C:\xampp\htdocs\balato\balato\bin\Debug\net10.0\balato.dll
+C:\xampp\htdocs\balato\balato\bin\Debug\net10.0\balato.pdb
+C:\xampp\htdocs\balato\balato\obj\Debug\net10.0\balato.genruntimeconfig.cache
+C:\xampp\htdocs\balato\balato\obj\Debug\net10.0\ref\balato.dll
